@@ -1,0 +1,45 @@
+.topBar{
+    height: 70px;
+    margin: 0px;
+    font-size:14px;
+    font-weight:bold;
+}
+.email-phone-address p{
+    margin-right:15px;
+    margin-bottom:0px;
+}
+.topBar p{
+    margin:0px;
+    padding:0px;
+    padding-bottom: 0px;
+}
+/* p > {
+    color: red;
+} */
+.topbar-content, .cart-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-register{
+    text-decoration: none;
+}
+ .email-phone-address{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (max-width: 768px) {
+    .email-phone-address{
+        display:none;
+    }
+}
+@media (min-width:575px) {
+    .cart-icon {
+        display: block !important;
+    }
+    .topBar{
+        display: flex;
+        justify-content: space-between;
+    }
+}

@@ -1,0 +1,41 @@
+.service-area-subtitle{
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.service-area-title{
+    font-size: 38px;
+    color: #2d2a2a;
+    font-weight: 600;
+}
+.entry-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+}
+.service-area-after-title{
+    font-size: 14px;
+}
+.area-selection-button-area{
+    background-image: url('https://citylaundrybd.com/wp-content/uploads/2020/12/locaion.jpg?id=10046');
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+}
+.area-selection-button-area .col-sm-6 button{
+    width: 100%;
+}
+@media (min-width: 768px){
+    .area-selection-button-area .col-sm-6{
+        width: 50%;
+    }
+}
+/* .service-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */

@@ -1,0 +1,35 @@
+.search-location-area{
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+}
+.search-location-area::after{
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: #181f31;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    opacity: .9;
+}
+.counter-section{
+    position: relative;
+    box-sizing: border-box;
+    padding-left: 63.5px;
+    padding-right: 63.5px;
+    font-size:20px;
+    line-height:1.5;
+}
+.counter-title{
+    font-size:24px;
+}
+.counter-section p{
+    margin-top: 5px;
+}

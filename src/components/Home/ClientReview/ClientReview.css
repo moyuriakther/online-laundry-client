@@ -1,0 +1,16 @@
+.image{
+    height:100px;
+    width:100px;
+   
+    margin: auto;
+    border: 2px solid #fff;
+    border-radius:50%;
+    overflow: hidden;
+    margin-bottom: 160px;
+}
+.image img{
+    width:100%
+}
+.carousel{
+    width:80%;
+    }

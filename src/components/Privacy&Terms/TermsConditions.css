@@ -1,0 +1,20 @@
+.stylet-list{
+    position: relative;
+}
+.stylet-list .title{
+    font-family: CircularStd,sans-serif;
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.33;
+    color: #717171;
+}
+.stylet-list ul.list{
+    position: relative;
+}
+.stylet-list ul.list li.item{
+    padding-bottom: 1rem;
+    color: #717171;
+    font-family: Archivo,sans-serif;
+    font-size: .9375rem;
+    text-align: justify;
+}

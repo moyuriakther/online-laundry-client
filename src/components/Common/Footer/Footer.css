@@ -1,0 +1,45 @@
+.footer-copyright{
+    font-size:14px;
+    font-weight:700;
+    background-color:lightGray;
+}
+.footer-copyright p{
+    margin-bottom:0;
+    padding: 6px;
+    text-align:center;
+}
+.footer-logo p{
+    font-size:14px;
+    padding-right: 14px;
+    text-align: justify;
+}
+.footer-logo h6{
+    display: inline-block;
+    color: #fff;
+}
+.useful-links .menu{
+    font-size:14px;
+    font-weight:500;
+    text-decoration: none;
+    color: #fff;
+}
+.useful-links .menu:hover{
+    color: rgb(255,255,0.5);
+}
+.useful-links ul{
+    list-style-type:none;
+    display: flex;
+    padding-left:0;
+}
+.footer h6{
+    font-size: 22px;
+    font-weight:500;
+}
+.footer-Icons{
+    color: #fff;
+    margin-right:1em;
+    font-size: 1.25rem;
+}
+.footer-Icons:hover{
+    color: #FBDA34;
+}

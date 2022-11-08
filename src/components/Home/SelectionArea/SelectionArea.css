@@ -1,0 +1,42 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+body {
+    background-color: #fcfcfc;
+}
+.selection-area{
+    user-selection: none;
+    position: relative;
+}
+.selection-area .selection-btn{
+    padding:15px 20px;
+    background: #fff; 
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+    font-weight: bold;
+    color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+.selection-area .selection-content {
+    position: absolute;
+    top: 110%;
+    padding: 10px;
+    background: #fff;
+    box-shadow: 3px 3px 10px 6px rgba(0, 0, 0, 0.06);
+    font-weight: 500;
+    color: #333;
+    width: 96%;
+}
+.selection-area .selection-content .selection-item {
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.selection-area .selection-content .selection-item:hover{
+    background: #f4f4f4;
+
+}
